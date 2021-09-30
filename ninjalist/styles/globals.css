@@ -24,6 +24,12 @@ nav {
 nav a {
   margin-left: 12px;
 }
+
+nav a:hover {
+  color: rgb(253, 70, 70);
+  font-weight: 530;
+}
+
 nav .logo {
   margin-right: auto;
 }
@@ -34,4 +40,17 @@ footer {
   margin-top: 60px;
   color: #777;
   border-top: 1px solid #eaeaea;
+}
+
+.not_found {
+  text-align: center;
+}
+
+.not_found h1 {
+  color: rgb(248, 52, 52);
+}
+
+.not_found a {
+  color: rgb(71, 71, 236);
+  text-decoration: underline;
 }
